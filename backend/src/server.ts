@@ -30,5 +30,3 @@ server.use("/api", router);
 server.listen(PORT, ()=>{
     console.log(`The server is running at http://${HOST}:${PORT}`);
 })
-
-
